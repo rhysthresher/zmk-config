@@ -32,7 +32,7 @@
 				&kp C_PREV &kp C_VOL_UP &kp C_MUTE &trans &trans &trans &trans &trans &trans &kp END &kp PG_DN &kp C_NEXT 
 				&bt BT_PRV &bt BT_NXT &trans &trans &trans &trans &trans &trans &trans &bt BT_CLR 
 			>;
-			sensor-bindings = <&inc_dec_kp C_NEXT C_PREV>;
+			sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
 		};
 	};
 };
